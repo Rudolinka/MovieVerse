@@ -1,7 +1,12 @@
 import React from "react";
+import MainTemplate from "../templates/MainTemplate";
 
 const FAQPage = () => {
-	return <div>FAQPage</div>;
+	return (
+		<div>
+			<MainTemplate></MainTemplate>
+		</div>
+	);
 };
 
 export default FAQPage;
