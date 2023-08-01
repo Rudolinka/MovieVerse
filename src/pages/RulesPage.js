@@ -1,7 +1,7 @@
 import React from "react";
 
-const RulesPages = () => {
-	return <div></div>;
+const RulesPage = () => {
+	return <div>RulesPage</div>;
 };
 
-export default RulesPages;
+export default RulesPage;

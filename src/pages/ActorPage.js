@@ -1,7 +1,7 @@
 import React from "react";
 
-const ActorPages = () => {
-	return <div></div>;
+const ActorPage = () => {
+	return <div>ActorPage</div>;
 };
 
-export default ActorPages;
+export default ActorPage;

@@ -1,4 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import MoviePage from "./pages/MoviePage";
+import ActorPage from "./pages/ActorPage";
+import FAQPage from "./pages/FAQPage";
+import RulesPage from "./pages/RulesPage";
 // 0ba05d0772c0df63f36bf3843a553887
 
 function App() {

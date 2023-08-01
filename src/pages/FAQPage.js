@@ -1,7 +1,7 @@
 import React from "react";
 
-const FAQPages = () => {
-	return <div></div>;
+const FAQPage = () => {
+	return <div>FAQPage</div>;
 };
 
-export default FAQPages;
+export default FAQPage;
