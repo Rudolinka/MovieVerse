@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/footerComponents/Footer";
 
+
 const MainTemplate = ({ children }) => {
 	return (
 		<div>

@@ -1,30 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import * as Styled from "./Header.styles";
+import { BsSearch } from "react-icons/bs";
+
 
 const header = () => {
 	return (
 		<header>
-			<div>
-				<nav>
+			<Styled.Wrapper>
+				<Styled.ComebackHp to="/">MovieVerse</Styled.ComebackHp>
+				<Styled.Search>
+					<BsSearch />
+				</Styled.Search>
+				<Styled.NavElement>
 					<ul>
-						<li>
-							<Link to="/">HomePage</Link>
-						</li>
-						<li>
-							<Link to="/movie">Movie</Link>
-						</li>
-						<li>
-							<Link to="/actor">Actor</Link>
-						</li>
-						<li>
-							<Link to="/faq">FAQ</Link>
-						</li>
-						<li>
-							<Link to="/rules">Rules</Link>
-						</li>
+
+						<Styled.ListElement>
+							<Styled.NavLink to="/">HomePage</Styled.NavLink>
+						</Styled.ListElement>
+						<Styled.ListElement>
+							<Styled.NavLink to="/movie">Movie</Styled.NavLink>
+						</Styled.ListElement>
+						<Styled.ListElement>
+							<Styled.NavLink to="/actor">Actor</Styled.NavLink>
+						</Styled.ListElement>
+						<Styled.ListElement>
+							<Styled.NavLink to="/faq">FAQ</Styled.NavLink>
+						</Styled.ListElement>
+						<Styled.ListElement>
+							<Styled.NavLink to="/rules">Rules</Styled.NavLink>
+						</Styled.ListElement>
+
 					</ul>
-				</nav>
-			</div>
+				</Styled.NavElement>
+			</Styled.Wrapper>
 		</header>
 	);
 };
