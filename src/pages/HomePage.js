@@ -9,7 +9,6 @@ const HomePage = () => {
 			<Footer />
 		</div>
 	);
-
-
+};
 
 export default HomePage;
