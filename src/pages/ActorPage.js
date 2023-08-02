@@ -1,7 +1,12 @@
 import React from "react";
+import MainTemplate from "../template/MainTemplate";
 
-const ActorPages = () => {
-	return <div></div>;
+const ActorPage = () => {
+	return (
+		<div>
+			<MainTemplate></MainTemplate>
+		</div>
+	);
 };
 
-export default ActorPages;
+export default ActorPage;

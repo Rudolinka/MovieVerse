@@ -1,7 +1,12 @@
 import React from "react";
+import MainTemplate from "../template/MainTemplate";
 
-const MoviePages = () => {
-	return <div></div>;
+const MoviePage = () => {
+	return (
+		<div>
+			<MainTemplate></MainTemplate>
+		</div>
+	);
 };
 
-export default MoviePages;
+export default MoviePage;

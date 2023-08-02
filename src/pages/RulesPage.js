@@ -1,11 +1,13 @@
 import React from "react";
+import MainTemplate from "../template/MainTemplate";
 import RulesComponents from "../components/rulescomponents/RulesComponents";
 
-const RulesPages = () => {
-	return <div>
-<RulesComponents/>
+const RulesPage = () => {
+	return (
+		<div>
+			<MainTemplate><RulesComponents/></MainTemplate>
+		</div>
+	);
 
-	</div>;
-};
 
-export default RulesPages;
+export default RulesPage;
