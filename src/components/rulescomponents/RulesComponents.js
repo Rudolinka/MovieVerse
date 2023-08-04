@@ -2,13 +2,15 @@ import React from 'react';
 import { link } from 'react-router-dom';
 import * as Styled from '../../pages/RulesPage.styles';
 
+// import * as Styled from '../../pages/RulesPage.styles';
+
 const RulesComponents = () => {
 	return (
 		<Styled.RulePage>
-			<Styled.Heading>
+			<Styled.h1>
 				Cel strony: Strona ma na celu dostarczenie informacji i rozrywki
 				związanej z filmami.
-			</Styled.Heading>
+			</Styled.h1>
 			<ul>
 				<Styled.Subpoints>
 					Prawa autorskie: Wszystkie treści, takie jak tekst, grafika, zdjęcia i
@@ -66,94 +68,90 @@ const RulesComponents = () => {
 					zaktualizowane zasady.
 				</Styled.Subpoints>
 
-				<h2>
-					Cel strony: Strona ma na celu dostarczenie informacji i rozrywki
-					związanej z filmami.
-				</h2>
 
-				<h1>Polityka Prywatności</h1>
+				<Styled.h2>Polityka Prywatności</Styled.h2>
 
-				<p>Data wejścia w życie: [data wejścia w życie]</p>
+				<Styled.Paragraf>Data wejścia w życie: [data wejścia w życie]</Styled.Paragraf>
 
-				<h2>1. Zbieranie danych osobowych</h2>
-				<p>
+				<Styled.h2>1. Zbieranie danych osobowych</Styled.h2>
+				<Styled.Paragraf>
 					Podczas korzystania z naszej strony internetowej, możemy zbierać pewne
 					dane osobowe, takie jak:
-				</p>
+				</Styled.Paragraf>
 				<ul>
-					<li>Adres IP i informacje o przeglądarce</li>
-					<li>Dane kontaktowe (np. adres e-mail)</li>
-					<li>Informacje demograficzne (np. wiek, płeć)</li>
-					<li>
+					<Styled.Subpoints>Adres IP i informacje o przeglądarce</Styled.Subpoints>
+					<Styled.Subpoints>Dane kontaktowe (np. adres e-mail)</Styled.Subpoints>
+					<Styled.Subpoints>Informacje demograficzne (np. wiek, płeć)</Styled.Subpoints>
+					<Styled.Subpoints>
 						Dane związane z aktywnością na stronie (np. oglądane treści,
 						kliknięcia)
-					</li>
+					</Styled.Subpoints>
 				</ul>
-				<p>
+				<Styled.Paragraf>
 					Wszystkie te dane zbieramy w sposób dobrowolny, za zgodą użytkownika,
 					który ma prawo do odmowy udostępnienia danych osobowych.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>2. Wykorzystanie danych osobowych</h2>
-				<p>
+				<Styled.h2>2. Wykorzystanie danych osobowych</Styled.h2>
+				<Styled.Paragraf>
 					Dane osobowe użytkowników są wykorzystywane w następujących celach:
-				</p>
+				</Styled.Paragraf>
 				<ul>
-					<li>
+					<Styled.Subpoints>
 						Personalizacja treści i dostosowanie strony do preferencji
 						użytkowników
-					</li>
-					<li>Analiza i monitorowanie ruchu na stronie</li>
-					<li>
+					</Styled.Subpoints>
+					<Styled.Subpoints>Analiza i monitorowanie ruchu na stronie</Styled.Subpoints>
+					<Styled.Subpoints>
 						Kontakt z użytkownikami w odpowiedzi na zgłoszenia i zapytania
-					</li>
-					<li>
+					</Styled.Subpoints>
+					<Styled.Subpoints>
 						Realizacja działań marketingowych i promocyjnych (za zgodą
 						użytkownika)
-					</li>
+					</Styled.Subpoints>
 				</ul>
 
-				<h2>3. Udostępnianie danych osobowych</h2>
-				<p>
+				<Styled.h2>3. Udostępnianie danych osobowych</Styled.h2>
+				<Styled.Paragraf>
 					Nie udostępniamy danych osobowych użytkowników stronom trzecim, chyba
 					że mamy do tego zgodę użytkownika lub jesteśmy zobowiązani do tego na
 					podstawie obowiązujących przepisów prawa.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>4. Bezpieczeństwo danych</h2>
-				<p>
+				<Styled.h2>4. Bezpieczeństwo danych</Styled.h2>
+				<Styled.Paragraf>
 					Dane osobowe użytkowników są przechowywane i przetwarzane zgodnie z
 					odpowiednimi środkami bezpieczeństwa, aby zapobiec nieuprawnionemu
 					dostępowi, utracie lub uszkodzeniu danych.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>5. Pliki cookies</h2>
-				<p>
+				<Styled.h2>5. Pliki cookies</Styled.h2>
+				<Styled.Paragraf>
 					Nasza strona internetowa może używać plików cookies w celu poprawy
 					działania strony i śledzenia aktywności użytkowników. Użytkownik ma
 					możliwość zaakceptowania lub odrzucenia plików cookies w ustawieniach
 					swojej przeglądarki.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>6. Linki do innych stron</h2>
-				<p>
+				<Styled.h2>6. Linki do innych stron</Styled.h2>
+				<Styled.Paragraf>
 					Nasza strona internetowa może zawierać linki do innych stron
 					internetowych. Nie ponosimy odpowiedzialności za polityki prywatności
 					ani treści na tych zewnętrznych stronach.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>7. Zmiany w polityce prywatności</h2>
-				<p>
+				<Styled.h2>7. Zmiany w polityce prywatności</Styled.h2>
+				<Styled.Paragraf>
 					Zastrzegamy sobie prawo do zmiany niniejszej Polityki Prywatności w
 					dowolnym momencie. Aktualizacje zostaną opublikowane na tej stronie, a
 					data "Data wejścia w życie" zostanie zaktualizowana.
-				</p>
+				</Styled.Paragraf>
 
-				<h2>8. Kontakt</h2>
-				<p>
+				<Styled.h2>8. Kontakt</Styled.h2>
+				<Styled.Paragraf>
 					Jeśli masz jakiekolwiek pytania dotyczące naszej Polityki Prywatności,
 					skontaktuj się z nami za pośrednictwem [podaj tutaj dane kontaktowe].
-				</p>
+				</Styled.Paragraf>
 			</ul>
 		</Styled.RulePage>
 	);
