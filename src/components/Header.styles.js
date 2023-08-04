@@ -82,3 +82,14 @@ export const Search = styled.div`
 	color: white;
 	z-index: 1;
 `;
+
+export const Clapper = styled.img`
+	position: relative;
+	top: 150px;
+	left: 70px;
+	margin: 5px;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
+	z-index: 1;
+`;
