@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import * as Styled from "./Header.styles";
 import { BsSearch } from "react-icons/bs";
 
@@ -7,7 +7,10 @@ const header = () => {
 	return (
 		<header>
 			<Styled.Wrapper>
-				<Styled.ComebackHp to="/">MovieVerse</Styled.ComebackHp>
+				<div>
+					<Styled.ComebackHp to="/">MovieVerse</Styled.ComebackHp>
+				</div>
+
 				<Styled.Search>
 					<BsSearch />
 				</Styled.Search>
