@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import * as Styled from "./Header.styles";
 import { BsSearch } from "react-icons/bs";
 
-
 const header = () => {
 	return (
 		<header>
@@ -14,7 +13,6 @@ const header = () => {
 				</Styled.Search>
 				<Styled.NavElement>
 					<ul>
-
 						<Styled.ListElement>
 							<Styled.NavLink to="/">HomePage</Styled.NavLink>
 						</Styled.ListElement>
@@ -30,7 +28,6 @@ const header = () => {
 						<Styled.ListElement>
 							<Styled.NavLink to="/rules">Rules</Styled.NavLink>
 						</Styled.ListElement>
-
 					</ul>
 				</Styled.NavElement>
 			</Styled.Wrapper>

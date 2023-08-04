@@ -4,12 +4,14 @@ import img from "../img/kurtyna.jpg";
 
 export const ListElement = styled.li`
 	display: inline-block;
+	margin-right: 8px;
 	padding: 5px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+	font-size: 35px;
 	&:hover {
-		font-size: 17px;
+		font-size: 37px;
 		text-shadow: 3px 3px 3px fuchsia;
 	}
 `;
