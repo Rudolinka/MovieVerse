@@ -5,7 +5,7 @@ const FooterNav = () => {
 	return (
 		<div>
 			<div>
-				<ul>
+				<Styled.FooterNav>
 					<Styled.ListElement>
 						<Styled.NavLink to="/">HomePage</Styled.NavLink>
 					</Styled.ListElement>
@@ -21,7 +21,7 @@ const FooterNav = () => {
 					<Styled.ListElement>
 						<Styled.NavLink to="/rules">Rules</Styled.NavLink>
 					</Styled.ListElement>
-				</ul>
+				</Styled.FooterNav>
 			</div>
 		</div>
 	);
