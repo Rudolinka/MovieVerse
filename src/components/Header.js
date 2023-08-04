@@ -2,14 +2,12 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import * as Styled from "./Header.styles";
 import { BsSearch } from "react-icons/bs";
-import logo from "../img/klaps.png";
 
 const header = () => {
 	return (
 		<header>
 			<Styled.Wrapper>
 				<div>
-					<Styled.Clapper src={logo} alt="movie clapper board" />
 					<Styled.ComebackHp to="/">MovieVerse</Styled.ComebackHp>
 				</div>
 

@@ -16,17 +16,6 @@ export const ListElement = styled.li`
 	}
 `;
 
-export const Clapper = styled.img`
-	position: relative;
-	top: 150px;
-	left: 70px;
-	margin: 5px;
-	padding: 10px;
-	width: 150px;
-	height: 150px;
-	z-index: 1;
-`;
-
 export const NavElement = styled.nav`
 	z-index: 1;
 	padding: 5px;
