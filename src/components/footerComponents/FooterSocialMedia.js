@@ -13,6 +13,7 @@ const FooterSocialMedia = () => {
 	return (
 		<div>
 			<Styled.SocialMedia>
+				<p>_________________________</p>
 				<ul>
 					<Styled.ListElement>
 						<Styled.SocialMediaIcon
@@ -35,6 +36,7 @@ const FooterSocialMedia = () => {
 						</Styled.SocialMediaIcon>
 					</Styled.ListElement>
 				</ul>
+				<p>_________________________</p>
 			</Styled.SocialMedia>
 		</div>
 	);
