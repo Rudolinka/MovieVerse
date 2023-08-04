@@ -12,8 +12,19 @@ export const ListElement = styled.li`
 	font-size: 35px;
 	&:hover {
 		font-size: 37px;
-		text-shadow: 3px 3px 3px fuchsia;
+		text-shadow: 3px 3px 3px royalblue;
 	}
+`;
+
+export const Clapper = styled.img`
+	position: relative;
+	top: 150px;
+	left: 70px;
+	margin: 5px;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
+	z-index: 1;
 `;
 
 export const NavElement = styled.nav`
@@ -56,9 +67,13 @@ export const Wrapper = styled.div`
 `;
 
 export const ComebackHp = styled(Link)`
+	position: absolute;
+	top: 0;
+	left: 0;
 	font-family: "Montserrat";
 	font-weight: bold;
 	text-decoration: none;
+	left: 40px;
 	height: 60px;
 	padding: 10px;
 	margin: 0;
@@ -68,8 +83,11 @@ export const ComebackHp = styled(Link)`
 `;
 
 export const Search = styled.div`
-	display: inline-block;
-	align-self: center;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	align-self: flex-end;
 	padding: 15px;
 	font-size: 35px;
 	color: white;
