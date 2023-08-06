@@ -1,5 +1,5 @@
 import React from "react";
-import * as Styled from "./NewHeader.styles";
+import * as Styled from "./Header.styles";
 
 const HeaderNav = () => {
 	return (

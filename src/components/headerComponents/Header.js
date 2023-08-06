@@ -1,5 +1,5 @@
 import React from "react";
-import * as Styled from "../headerComponents/NewHeader.styles";
+import * as Styled from "./Header.styles";
 import HeaderNav from "./HeaderNav";
 import Logo from "../../img/kamera.png";
 import { Link } from "react-router-dom";
