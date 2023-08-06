@@ -10,20 +10,14 @@ export const FooterContainer = styled.div`
 	background-color: #07395a;
 `;
 
+// LOGO, TITLE
+
 export const FooterLogoBox = styled.div`
 	position: absolute;
 	top: 0;
 	left: 5%;
 	padding: 5px 20px 0 20px;
 `;
-
-export const FooterWrapper = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 30px 30px 0 30px;
-`;
-
 export const FooterLogo = styled.img`
 	align-items: center;
 	height: 180px;
@@ -32,35 +26,32 @@ export const FooterLogo = styled.img`
 `;
 
 export const FooterHeadName = styled.h2`
-	text-align: center;
 	color: white;
+	text-align: center;
 `;
+
+// WRAPPER > NAV, SOCIAL MEDIA, CREATORS
+
+export const FooterWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 30px 0 30px;
+`;
+
+// FOOTER NAVIGATION
 
 export const FooterNav = styled.div`
 	margin: 5px 0 30px 0;
 `;
 
-export const ListElement = styled.li`
+export const NavElement = styled.li`
 	display: inline-block;
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: white;
 	list-style-type: none;
-`;
-
-export const CreatorBox = styled.div`
-	margin-top: 30px;
-	/* margin-bottom: -30px; */
-`;
-
-export const Creators = styled.h3`
-	align-self: flex-end;
-	margin: 10px 0;
-	font-family: sans-serif;
-	color: white;
-	font-size: 12px;
-	text-align: center;
 `;
 
 export const NavLink = styled(Link)`
@@ -72,6 +63,8 @@ export const NavLink = styled(Link)`
 		color: royalblue;
 	}
 `;
+
+// SOCIAL MEDIA
 
 export const SocialMedia = styled.div`
 	display: flex;
@@ -89,6 +82,20 @@ export const SocialMediaIcon = styled(Link)`
 	&:hover {
 		color: royalblue;
 	}
+`;
+
+// CREATORS
+
+export const CreatorBox = styled.div`
+	margin-top: 30px;
+`;
+
+export const Creators = styled.h3`
+	margin: 10px 0;
+	font-family: sans-serif;
+	color: white;
+	font-size: 12px;
+	text-align: center;
 `;
 
 export const CreatorsCopyright = styled.span`

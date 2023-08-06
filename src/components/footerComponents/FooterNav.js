@@ -6,21 +6,21 @@ const FooterNav = () => {
 		<div>
 			<div>
 				<Styled.FooterNav>
-					<Styled.ListElement>
+					<Styled.NavElement>
 						<Styled.NavLink to="/">HomePage</Styled.NavLink>
-					</Styled.ListElement>
-					<Styled.ListElement>
+					</Styled.NavElement>
+					<Styled.NavElement>
 						<Styled.NavLink to="/movie">Movies</Styled.NavLink>
-					</Styled.ListElement>
-					<Styled.ListElement>
+					</Styled.NavElement>
+					<Styled.NavElement>
 						<Styled.NavLink to="/actor">Actors</Styled.NavLink>
-					</Styled.ListElement>
-					<Styled.ListElement>
+					</Styled.NavElement>
+					<Styled.NavElement>
 						<Styled.NavLink to="/faq">FAQ</Styled.NavLink>
-					</Styled.ListElement>
-					<Styled.ListElement>
+					</Styled.NavElement>
+					<Styled.NavElement>
 						<Styled.NavLink to="/rules">Rules</Styled.NavLink>
-					</Styled.ListElement>
+					</Styled.NavElement>
 				</Styled.FooterNav>
 			</div>
 		</div>
