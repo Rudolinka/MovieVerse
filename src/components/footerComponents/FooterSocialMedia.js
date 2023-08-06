@@ -13,9 +13,9 @@ const FooterSocialMedia = () => {
 	return (
 		<div>
 			<Styled.SocialMedia>
-				<p>_________________________</p>
+				<p>______________________</p>
 				<ul>
-					<Styled.ListElement>
+					<Styled.NavElement>
 						<Styled.SocialMediaIcon
 							to="https://github.com/Rudolinka/MovieVerse"
 							target="_blank"
@@ -34,9 +34,9 @@ const FooterSocialMedia = () => {
 						<Styled.SocialMediaIcon to="#">
 							<BsYoutube />
 						</Styled.SocialMediaIcon>
-					</Styled.ListElement>
+					</Styled.NavElement>
 				</ul>
-				<p>_________________________</p>
+				<p>______________________</p>
 			</Styled.SocialMedia>
 		</div>
 	);

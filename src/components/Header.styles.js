@@ -42,7 +42,7 @@ export const Wrapper = styled.div`
 	height: 300px;
 	background-image: url(${img});
 	background-size: cover;
-	background-position: 0 50%;
+	background-position: center;
 	&::after,
 	&::before {
 		content: "";
