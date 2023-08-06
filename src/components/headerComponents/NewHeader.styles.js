@@ -65,7 +65,7 @@ export const NavElement = styled.li`
 	text-transform: uppercase;
 	&:hover {
 		font-size: 27px;
-		text-shadow: 3px 3px 3px royalblue;
+		text-shadow: 3px 3px 3px #01ffff;
 	}
 `;
 

@@ -7,21 +7,21 @@ export const FooterContainer = styled.div`
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: #07395a;
+	background-color: #0032a2;
 `;
 
 // LOGO, TITLE
 
 export const FooterLogoBox = styled.div`
 	position: absolute;
-	top: 0;
+	top: 40%;
 	left: 5%;
 	padding: 5px 20px 0 20px;
+	transform: translate(-5%, -40%);
 `;
 export const FooterLogo = styled.img`
-	align-items: center;
-	height: 180px;
-	width: 180px;
+	height: 120px;
+	width: 120px;
 	margin: 20px 20px 0 20px;
 `;
 
@@ -60,7 +60,7 @@ export const NavLink = styled(Link)`
 	font-weight: bold;
 	font-size: 20px;
 	&:hover {
-		color: royalblue;
+		color: #01ffff;
 	}
 `;
 
@@ -80,7 +80,7 @@ export const SocialMediaIcon = styled(Link)`
 	padding: 15px;
 	cursor: pointer;
 	&:hover {
-		color: royalblue;
+		color: #01ffff;
 	}
 `;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import * as Styled from "./Footer.styles";
-import logo from "../../img/klaps.png";
+import logo from "../../img/kamera.png";
 import { Link } from "react-router-dom";
 
 const FooterLogo = () => {
