@@ -1,6 +1,6 @@
 import React from "react";
 import MainTemplate from "../template/MainTemplate";
-import RulesComponents from "../components/rulescomponents/RulesComponents";
+import RulesComponents from "../components/rulesComponents/RulesComponents";
 
 const RulesPage = () => {
 	return (

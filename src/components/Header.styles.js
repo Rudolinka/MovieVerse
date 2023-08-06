@@ -1,20 +1,8 @@
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
-import img from "../img/kurtyna.jpg";
+import img from "../img/tape2.jpg";
 
-export const ListElement = styled.li`
-	display: inline-block;
-	margin-right: 8px;
-	padding: 5px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	font-size: 35px;
-	&:hover {
-		font-size: 37px;
-		text-shadow: 3px 3px 3px royalblue;
-	}
-`;
+export const ListElement = styled.li``;
 
 export const NavElement = styled.nav`
 	z-index: 1;
@@ -29,20 +17,16 @@ export const NavElement = styled.nav`
 // 	z-index: 1;
 // `;
 
-export const NavLink = styled(Link)`
-	color: white;
-	text-decoration: none;
-	z-index: 1;
-`;
+export const NavLink = styled(Link)``;
 
 export const Wrapper = styled.div`
 	display: flex;
 	position: relative;
 	justify-content: space-between;
-	height: 300px;
+	height: 350px;
 	background-image: url(${img});
 	background-size: cover;
-	background-position: 0 50%;
+	background-position: 100%;
 	&::after,
 	&::before {
 		content: "";
@@ -51,7 +35,7 @@ export const Wrapper = styled.div`
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.3);
+		background-color: rgba(0, 0, 130, 0.3);
 	}
 `;
 
