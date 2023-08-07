@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import * as Styled from "./Header.styles";
+import { motion } from "framer-motion";
+import { FaSearch } from "react-icons/fa";
 
 const HeaderSearchBar = ({ onSearch }) => {
 	const [searchTerm, setSearchTerm] = useState("");
@@ -12,17 +14,29 @@ const HeaderSearchBar = ({ onSearch }) => {
 		onSearch(searchTerm);
 	};
 
+	const handleSubmit = (e) => e.preventDefault();
+
 	return (
 		<div>
-			<form>
-				<Styled.SearchInput
-					type="text"
-					placeholder="Search..."
-					value={searchTerm}
-					onChange={handleInputChange}
-				/>
+			<form onSubmit={handleSubmit}>
+				<motion.div
+					className="box"
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 0.8 }}
+				>
+					<Styled.SearchInput
+						type="text"
+						placeholder="Search for movie..."
+						id="search"
+						value={searchTerm}
+						onChange={handleInputChange}
+					/>
+				</motion.div>
+				<button onClick={handleSearch}>
+					<FaSearch />
+				</button>
 			</form>
-			<button onClick={handleSearch}>Search</button>
 		</div>
 	);
 };
