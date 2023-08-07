@@ -1,5 +1,5 @@
-import { styled } from "styled-components";
-import { Link } from "react-router-dom";
+import { styled } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const FooterWrapper = styled.div`
 	display: flex;
@@ -8,13 +8,13 @@ export const FooterWrapper = styled.div`
 	background-color: #07395a;
 `;
 
-export const ListElement = styled.li`
+export const litElement = styled.li`
 	display: inline-block;
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: white;
-	list-style-type: none;
+	lit-style-type: none;
 `;
 
 export const Creators = styled.h3`

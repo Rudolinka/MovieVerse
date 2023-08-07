@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { styled } from "styled-components";
-import img from "../img/kurtyna.jpg";
+import { Link } from 'react-router-dom';
+import { styled } from 'styled-components';
+import img from '../img/kurtyna.jpg';
 
-export const ListElement = styled.li`
+export const litElement = styled.li`
 	display: inline-block;
 	margin-right: 8px;
 	padding: 5px;
@@ -45,7 +45,7 @@ export const Wrapper = styled.div`
 	background-position: 0 50%;
 	&::after,
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -56,7 +56,7 @@ export const Wrapper = styled.div`
 `;
 
 export const ComebackHp = styled(Link)`
-	font-family: "Montserrat";
+	font-family: 'Montserrat';
 	font-weight: bold;
 	text-decoration: none;
 	height: 60px;
