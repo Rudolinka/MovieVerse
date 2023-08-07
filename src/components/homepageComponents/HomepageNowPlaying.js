@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HomepageNowPlayingContent from "./HomepageNowPlayingContent";
+import * as Styled from "../homepageComponents/Homepage.styles";
 
 const HomepageNowPlaying = () => {
 	const [nowPlaying, setNowPlaying] = useState([]);
@@ -19,11 +20,11 @@ const HomepageNowPlaying = () => {
 	// console.log(nowPlaying);
 
 	return (
-		<div>
+		<Styled.MovieMap>
 			{nowPlaying.map((movie) => (
 				<HomepageNowPlayingContent key={movie.id} item={movie} />
 			))}
-		</div>
+		</Styled.MovieMap>
 	);
 };
 
