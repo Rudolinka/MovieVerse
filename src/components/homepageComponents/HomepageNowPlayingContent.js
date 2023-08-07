@@ -1,11 +1,13 @@
 import React from "react";
-
+import * as Styled from "../homepageComponents/Homepage.styles";
 const HomepageNowPlayingContent = ({ item }) => {
 	return (
-		<div>
-			<img src={`https://image.tmdb.org/t/p/w300/${item.poster_path}`} />
-			<h2>{item.title}</h2>
-		</div>
+		<Styled.MovieCard>
+			<Styled.MoviePoster
+				src={`https://image.tmdb.org/t/p/w185/${item.poster_path}`}
+			/>
+			<Styled.MovieName>{item.title}</Styled.MovieName>
+		</Styled.MovieCard>
 	);
 };
 
