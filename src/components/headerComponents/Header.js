@@ -4,9 +4,11 @@ import HeaderNav from "./HeaderNav";
 import Logo from "../../img/kamera.png";
 import { ImSearch } from "react-icons/im";
 import HeaderSearchBar from "./HeaderSearchBar";
+import { motion } from "framer-motion";
 
 const NewHeader = () => {
 	const [isExpanded, setIsExpanded] = useState(false);
+	const [isVisible, setIsVisible] = useState(true);
 	const [searchResults, setSearchResults] = useState([]);
 	function toggle() {
 		setIsExpanded((isExpanded) => !isExpanded);
@@ -42,7 +44,6 @@ const NewHeader = () => {
 				{isExpanded && (
 					<HeaderSearchBar onSearch={searchMovies} isExpanded={isExpanded} />
 				)}
-
 				{searchResults.map((movie) => (
 					<p key={movie.id}>{movie.title}</p>
 				))}

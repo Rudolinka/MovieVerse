@@ -46,8 +46,7 @@ export const TitleName = styled.h2`
 
 export const SearchBox = styled.div`
 	display: flex;
-	justify-content: center;
-	align-items: center;
+
 	color: #008ffd;
 	font-size: 35px;
 	align-self: center;
@@ -55,17 +54,18 @@ export const SearchBox = styled.div`
 `;
 
 export const SearchIconPar = styled.p`
-	transition: 4s linear;
+	position: relative;
+	padding: 10px;
 	cursor: pointer;
 `;
 
 export const SearchInput = styled.input`
-	/* position: absolute; */
-	height: 30px;
 	width: 400px;
-	border-radius: 20px;
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
 	text-align: center;
-	/* max-height: ${(props) => (props.isExpanded ? "0" : "100%")}; */
 	transition: 4s linear;
 `;
 
