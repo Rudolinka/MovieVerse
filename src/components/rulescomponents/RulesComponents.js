@@ -8,7 +8,7 @@ const RulesComponents = () => {
                 Cel strony: Strona ma na celu dostarczenie informacji i rozrywki
                 związanej z filmami.
             </Styled.H2>
-            <ol>
+           <ol>
                 <Styled.Li>
                     Prawa autorskie: Wszystkie treści, takie jak tekst, grafika, zdjęcia i
                     filmy, są chronione prawem autorskim i nie mogą być kopiowane ani
@@ -57,13 +57,14 @@ const RulesComponents = () => {
                     zaktualizowane zasady.
                 </Styled.Li>
                 <Styled.H2>Polityka Prywatności</Styled.H2>
-                <p>Data wejścia w życie: [data wejścia w życie]</p>
+                <p>Data wejścia w życie: [Jak wejdzie to wejdzie]</p>
                 <Styled.H3>1. Zbieranie danych osobowych</Styled.H3>
                 <p>
                     Podczas korzystania z naszej strony internetowej, możemy zbierać pewne
                     dane osobowe, takie jak:
                 </p>
-                <ul>
+                
+                <ol>
                     <Styled.Li>Adres IP i informacje o przeglądarce</Styled.Li>
                     <Styled.Li>Dane kontaktowe (np. adres e-mail)</Styled.Li>
                     <Styled.Li>Informacje demograficzne (np. wiek, płeć)</Styled.Li>
@@ -71,7 +72,7 @@ const RulesComponents = () => {
                         Dane związane z aktywnością na stronie (np. oglądane treści,
                         kliknięcia)
                     </Styled.Li>
-                </ul>
+                </ol>
                 <p>
                     Wszystkie te dane zbieramy w sposób dobrowolny, za zgodą użytkownika,
                     który ma prawo do odmowy udostępnienia danych osobowych.
@@ -80,7 +81,7 @@ const RulesComponents = () => {
                 <p>
                     Dane osobowe użytkowników są wykorzystywane w następujących celach:
                 </p>
-                <ul>
+                <ol>
                     <Styled.Li>
                         Personalizacja treści i dostosowanie strony do preferencji
                         użytkowników
@@ -93,7 +94,7 @@ const RulesComponents = () => {
                         Realizacja działań marketingowych i promocyjnych (za zgodą
                         użytkownika)
                     </Styled.Li>
-                </ul>
+                </ol>
                 <Styled.H3>3. Udostępnianie danych osobowych</Styled.H3>
                 <p>
                     Nie udostępniamy danych osobowych użytkowników stronom trzecim, chyba
@@ -128,9 +129,9 @@ const RulesComponents = () => {
                 <Styled.H3>8. Kontakt</Styled.H3>
                 <p>
                     Jeśli masz jakiekolwiek pytania dotyczące naszej Polityki Prywatności,
-                    skontaktuj się z nami za pośrednictwem [podaj tutaj dane kontaktowe].
+                    skontaktuj się z nami za pośrednictwem [kontakt@fake.pl].
                 </p>
-            </ol>
+                </ol>
         </Styled.Main>
 	)}
 export default RulesComponents;
